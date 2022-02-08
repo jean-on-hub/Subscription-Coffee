@@ -12,27 +12,40 @@
 </head>
 <body>
   <!--This is navigation bar--->
-  <nav>
+  <nav id="nav">
     <div class="nav">
-      <div><img src="assets/shared/desktop/logo.svg" alt class="logo"></div>
-      <ul class="nav-links">
+      <img src="assets/shared/desktop/logo.svg" alt class="logo" />
+      <ul class="links">
         <li><a href="index.html">HOME</a></li>
         <li><a href="about.html">ABOUT US</a></li>
-        <li><a href="plan.html">CREATE YOUR PLAN</a></li>
+        <li><a href="plan.html">CREATE YOUR PLAN </a></li>
       </ul>
       <div id="hamburger" class="hamburger"><img src="assets/shared/mobile/icon-hamburger.svg" alt=""></div>
     </div>
   </nav>
 
+  <!-- mobile -->
+  <div id="menu-container" class="menu-container">
+    <div id="menu" class="menu">
+    </div>
+  </div>
+  <ul class="hamburger-ul">
+    <li><a class="hamburger-links" id="first" href="index.html">HOME</a></li>
+    <li><a class="hamburger-links" id="second" href="about.html">ABOUT</a></li>
+    <li><a class="hamburger-links" id="third" href="plan.html">CREATE YOUR PLAN</a></li>
+  </ul>
+
   <!--The main body/context-->
   <div class="intro-pic">
-    <div class="intro">
-      <h1 class="intro-title">Great coffee made simple.</h1>
-
-      <p class="intro-p">Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.</p>
-
-      <a href="plan.html" class="btn">Create your plan</a>
-    </div>
+      <div class="intro">
+        <h1 class="intro-title">Great coffee made simple.</h1>
+        <p class="intro-para">
+          Start your mornings with the world’s best coffees. Try our expertly
+          curated artisan coffees from our best roasters delivered directly to
+          your door, at your schedule.
+        </p>
+        <a href="plan.html" class="btn">Create your plan</a>
+      </div>
   </div>
 
   <div class="collection">
@@ -130,9 +143,9 @@
 
 <!-- footer -->
 
-  <div class="footer">
-    <div>
-      <img src="assets/shared/desktop/logo.svg" alt class="logo">
+  <div class="footer-dn">
+    <div class="footer">
+      <div><img src="assets/shared/desktop/footer-log.svg" alt class="logo"></div>
       <ul class="nav-links">
         <li><a href="index.html">HOME</a></li>
         <li><a href="about.html">ABOUT US</a></li>
