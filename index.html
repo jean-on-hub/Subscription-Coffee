@@ -5,6 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link
+  rel="icon"
+  type="image/svg"
+  sizes="32x32"
+  href="assets/shared/desktop/icon.svg"
+/>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+
+<link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;800;900&family=PT+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
@@ -47,7 +61,7 @@
   </ul>
 
   <!--The main body/context-->
-  <div class="intro-pic">
+  <div class="intro-bg">
       <div class="intro">
         <h1 class="intro-title">Great coffee made simple.</h1>
         <p class="intro-para">
@@ -62,26 +76,26 @@
   <div class="collection">
     <h1 class="collection-title">Our collection</h1>
     <div class="collection-cards">
-      <div class="">
+      <div class="card collection-card">
         <img src="assets/home/desktop/image-gran-espresso.png" alt="">
         <h3>Gran Espresso</h3>
         <p>Light and flavorful blend with cocoa and black pepper for an intense experience</p>
       </div>
-      <div class="card">
+      <div class="card collection-card">
         <img src="assets/home/desktop/image-planalto.png" alt="">
         <div>
           <h3>Planalto</h3>
           <p>Brazilian dark roast with rich and velvety body, and hints of fruits and nuts</p>
         </div>
       </div>
-      <div class="card">
+      <div class="card collection-card">
         <img src="assets/home/desktop/image-piccollo.png" alt="">
         <div>
           <h3>Piccollo</h3>
           <p>Mild and smooth blend featuring notes of toasted almond and dried cherry</p>
         </div>
       </div>
-      <div class="card">
+      <div class="card collection-card">
         <img src="assets/home/desktop/image-danche.png" alt="">
         <div>
           <h3>Danche</h3>
@@ -91,31 +105,36 @@
     </div>
   </div>
 
-  <div class="facility">
+  <div class="facilities">
     <div class="facility-intro">
       <!--This image is for the background for this div-->
-      <img src="assets/plan/desktop/bg-steps.png" alt="">
+      <img
+          class="facility-background"
+          src="assets/plan/desktop/bg-steps.png"
+          alt=""
+        />
       <h3>Why choose us?</h3>
       <p>A large part of our role is choosing which particular coffees will be featured in our range. This means working closely with the best coffee growers to give you a more impactful experience on every level.</p>
     </div>
+
     <div class="facility-cards">
-      <div class="card facility-card">
-        <div class="facility-img">
-          <img src="" alt="">
-        </div>
+        <div class="card facility-card">
+          <div class="facility-img">
+            <img src="assets/home/desktop/icon-coffee-bean.svg" alt="" />
+          </div>
         <h3>Best quality</h3>
         <p>Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
       </div>
       <div class="card facility-card">
         <div class="facility-img">
-          <img src="" alt="">
+          <img src="assets/home/desktop/icon-gift.svg" alt="" />
         </div>
         <h3>Exclusive benefits</h3>
         <p>Special offers and swag when you subscribe, including 30% off your first shipment.</p>
       </div>
       <div class="card facility-card">
         <div class="facility-img">
-          <img src="" alt="">
+          <img src="assets/home/desktop/icon-truck.svg" alt="" />
         </div>
         <h3>Free shipping</h3>
         <p>We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
@@ -135,9 +154,10 @@
     <div class="procedure-cards">
       <div class="card procedure-card">
         <h1>01</h1>
-        <h3>Pick your coffee</h3>
+        <h3>Pick your cofee</h3>
         <p>Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
       </div>
+
       <div class="card procedure-card"> 
         <h1>02</h1>
         <h3>Choose the frequency</h3>
@@ -146,33 +166,44 @@
       <div class="card procedure-card">
         <h1>03</h1>
         <h3>Receive and enjoy!</h3>
+
         <p>We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.</p>
       </div>
-      <a href="plan.html" class="btn">Create your plan</a>
+      
     </div>
+    <a href="plan.html" class="btn">Create your plan</a>
   </div>
 
 <!-- footer -->
 
-  <div class="footer-dn">
-    <div class="footer">
-      <div><img src="assets/shared/desktop/footer-log.svg" alt class="logo"></div>
-      <ul class="nav-links">
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="about.html">ABOUT US</a></li>
-        <li><a href="plan.html">CREATE YOUR PLAN</a></li>
-      </ul>
-      <ul class="nav-links">
-        <li><img src="assets/shared/desktop/icon-facebook.svg" alt class=""></li>
-        <a href="#" class="fa fa-facebook"></a>
+<div class="footer-bg">
+  <div class="footer">
+    <img src="assets/shared/desktop/footer-logo.svg" alt="" />
+    <ul class="nav-links">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT US</a></li>
+      <li><a href="plan.html">CREATE YOUR PLAN</a></li>
+    </ul>
 
-        <li><img src="assets/shared/desktop/icon-instagram.svg" alt class=""></li>
-        <a href="#" class="fa fa-instagram"></a>
-        <li><img src="assets/shared/desktop/icon-twitter.svg" alt class=""></li>
-        <a href="#" class="fa fa-twitter"></a>
-      </ul>
-    </div>
+    <ul>
+      <li>
+        <a href=""
+          ><img src="assets/shared/desktop/icon-facebook.svg" alt=""
+        /></a>
+      </li>
+      <li>
+        <a href=""
+          ><img src="assets/shared/desktop/icon-instagram.svg" alt=""
+        /></a>
+      </li>
+      <li>
+        <a href=""
+          ><img src="assets/shared/desktop/icon-twitter.svg" alt=""
+        /></a>
+      </li>
+    </ul>
   </div>
+</div>
 </body>
 </html>
 
