@@ -1,6 +1,6 @@
 .procedure,
 .bullet {
-  background-image: url("assets/plan/desktop/bg-steps.png");
+  background-image: url("desktop/bg-steps.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
