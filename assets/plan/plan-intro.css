@@ -1,5 +1,5 @@
 .intro-pic {
-    background-image: url(desktop/image-hero-blackcup.jpg);
+    background-image: url(assets/plan/desktop/image-hero-blackcup.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -31,13 +31,13 @@
 
 @media screen and (max-width: 1000px) {
     .intro-pic {
-      background-image: url(tablet/image-hero-blackcup.jpg);
+      background-image: url(assets/plan/tablet/image-hero-blackcup.jpg);
     }
   }
   
   @media screen and (max-width: 930px) {
     .intro-pic {
-      background-image: url(mobile/image-hero-blackcup.jpg);
+      background-image: url(assets/plan/mobile/image-hero-blackcup.jpg);
     }
   }
   
